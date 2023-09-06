@@ -1,0 +1,16 @@
+Olá me chamo Alexandre Galleti Lima, atualmente tenho 18 anos de idade, sou um desenvolvedor apaixonado 
+por criar e testar projetos, Tenho experiencia atualmente com HTML, CSS, Python, Delphi e JavaScript;
+
+Minha meta é um dia me tornar um grande Desenvolvedor, e estou me esforçando ao maximo para alcançar
+meu objetivo o quanto antes.
+
+Já atuei no mercado de trabalho como Desenvolvedor Junior e suporte, nesse periodo aprendi muito 
+sobre como a programação pode mudar as rotinas de uma empresa, particularmente sou apaixonado por
+automatização de rotinas diarias dentro da empresa como por exemplo:
+
+- Abrir chamado para suporte (sistemas)
+- Bater o ponto automaticamente quando chegar a empresa (empresas)
+- Limpar todo o cahce do computador (dia a dia )
+
+Enfim, no momento ainda preciso adiquirir mais conhecimento sobre desenvolvimento mais adoraria poder 
+aprender trabalhando na área :)

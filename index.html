@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <h1>Alexandre Galleti Lima</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="http://127.0.0.1:53900/src/views/home/index.html">Início</a></li>
+                <li><a href="#">Sobre Mim</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>Quem é Alexandre Galleti Lima ?</h2>
+        <p>Olá me chamo Alexandre Galleti Lima, atualmente tenho 18 anos de idade, sou um desenvolvedor apaixonado 
+            por criar e testar projetos, 
+            Tenho experiencia atualmente com HTML, CSS, Python, Delphi e JavaScript;</p>
+
+        <p>Minha meta é um dia me tornar um grande Desenvolvedor, e estou me esforçando ao maximo para alcançar
+            meu objetivo o quanto antes.</p>
+    </section>
+
+    <section class="portfolio">
+        <div class="project">
+            <img src="https://lh3.googleusercontent.com/pw/AIL4fc9mOIFi1dPBhGWoEHLpa6XbWkM9T9Ljyg392TbxZu7_6r3GTxCS2flhP9CGz1Fu0q5etR4P0eJZmnh2WtM6o_BmcfnfXg201Pfln6GWbxZApC0tfLeyzqDqvr9Fie4XUN_uQ2B3JUNp6MbYb55C6tkw61_l9vDFLOmdcjm_Gf77Ck5l5cB9jH2D4vp_M3RV-PqPyfZQNAQ56UhJIBGIw_MkhOQZSUAGDEjGU12RAbpytmTfzdu0MxSBdBkbdg88_is8EhrXdImB-DUWxjf9PbAkj4pip3EFV35zezUkcphdr-16wPW9IqVKfhSetUugnmj8qxdTb4IYxtceTJ_szaPMOgXXpKJqr70YkobeywtANYS8iphlCs0b-M5csiZBIZFAQlvvCTGZLr9Un9w8I_lFjgQMM9qTspHDzk-Azgy8OOuzkZt1UiW9--l1XzOHJp-MrqAmZtqNa2wW7MgSUsa-NMuP7aiJhDHIlkg58e21l3EvAGoteGo6SMIn4jiKrNnxfPKLnOHnBVPMHr0nFb7lhQMDPux7aClL3RMozJS-Qnl2ccjVt7VbMI87jOHO823PfRbKnfa0t-Ja9PrPaClwqGCiRR6P0TKshUeiv2wb5gjVKGCe56DKgtX-QOrF8GK-TFFJ9Ri7chyRlTRDn4KbS9CPWGCwgIFA7jXgabHIZzxa3RYexG0RqUMERpN8vtDPsnliBktp0sW_8CiIB4R56zeIrvfnbHMU_DGp6Ij38nFjsNRVcsmZ8ot4cBEbcxZ0_3f1wJ3XYcqyZQIYCx4c-MvgAWn4m8q3pt9ISkOCXvt4AAC_txD06T9DyykWj_sbosDn-VR0wOwjrJnl2QTERWjhVXgPFFMXJH5NgIzU-GdVF3u_v2UJEb0pQIMySQg3aUVUiL3d0arMDJMrvg08LCLxxozINVrCCTd1ntgNkdv4Q3O-5Xtv1aB2Aw=w1001-h751-s-no?authuser=1" alt="Projeto 1">
+            <h3>Alexandre Galleti e William Galleti</h3>
+            <p>Já atuei no mercado de trabalho como Desenvolvedor Junior e suporte, nesse periodo aprendi muito 
+                sobre como a programação pode mudar as rotinas de uma empresa, particularmente sou apaixonado por
+                automatização de rotinas diarias dentro da empresa como por exemplo:</p>
+                <p> Abrir chamado para suporte (sistemas)
+                     Bater o ponto automaticamente quando chegar a empresa (empresas)
+                     Limpar todo o cahce do computador (dia a dia)</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Projeto 2">
+            <h3>Projeto 2</h3>
+            <p>Descrição do Projeto 2.</p>
+        </div>
+       
+    </section>
+
+    <section class="contact">
+        <h2>Contato</h2>
+        <p>Você pode me contatar em: seuemail@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+        <button id="topButton" title="Voltar ao Topo">&#9650;</button>
+    </footer>
+    <script>
+        // Adiciona um evento de rolagem (scroll) para mostrar/ocultar o botão "Voltar ao Topo"
+        window.addEventListener('scroll', function() {
+            var topButton = document.getElementById('topButton');
+            if (window.scrollY > 300) { // Mostra o botão quando o usuário rolar 300 pixels para baixo
+                topButton.style.display = 'block';
+            } else {
+                topButton.style.display = 'none';
+            }
+        });
+        
+        // Adiciona um evento de clique ao botão "Voltar ao Topo" para rolar suavemente para o topo
+        document.getElementById('topButton').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Rolagem suave
+            });
+        });
+        </script>
+</body>
+</html>

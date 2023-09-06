@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 200px; 
+    height: auto;
+    cursor:pointer
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-right: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    color: #4400ff;
+}
+
+.about,
+.portfolio,
+.contact {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    width: 600px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+/* Estilos para o botão "Voltar ao Topo" */
+#topButton {
+    display: none; /* Esconde o botão inicialmente */
+    position: fixed; /* Define a posição fixa */
+    bottom: 20px; /* Distância do botão a partir do fundo da página */
+    right: 20px; /* Distância do botão a partir da direita da página */
+    background-color: #777575; /* Cor de fundo do botão */
+    color: #333333; /* Cor do ícone do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 50%; /* Torna o botão circular */
+    cursor: pointer; /* Transforma o cursor em uma mãozinha ao passar sobre o botão */
+    font-size: 30px; /* Tamanho do ícone do botão */
+}
+
+/* Estilos para o botão "Voltar ao Topo" ao passar o mouse sobre ele */
+#topButton:hover {
+    background-color: #4400ff; /* Cor de fundo do botão ao passar o mouse */
+}
