@@ -1,11 +1,14 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+
+/* Cabeçalho (Header) */
 .main-header {
     background-color: #333;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -15,7 +18,7 @@ body {
 .logo {
     width: 200px; 
     height: auto;
-    cursor:pointer
+    cursor: pointer;
 }
 
 .main-nav ul {
@@ -34,9 +37,10 @@ body {
 }
 
 .main-nav a:hover {
-    color: #4400ff;
+    color: #0004ff;
 }
 
+/* Estilos para seções */
 .about,
 .portfolio,
 .contact {
@@ -49,17 +53,22 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    color:#0004ff
 }
 
+/* Projetos no Portfólio */
 .project {
     margin-bottom: 2rem;
 }
 
 .project img {
-    width: 600px;
+    width: 100%;
     height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Rodapé (Footer) */
 footer {
     background-color: #333;
     color: white;
@@ -67,22 +76,116 @@ footer {
     padding: 1rem 0;
 }
 
+/* Seção de Contato */
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: rgb(128, 128, 128);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #0004ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+/* Estilos para layout responsivo */
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .contact-form,
+    .contact-info {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
 
 /* Estilos para o botão "Voltar ao Topo" */
 #topButton {
-    display: none; /* Esconde o botão inicialmente */
-    position: fixed; /* Define a posição fixa */
-    bottom: 20px; /* Distância do botão a partir do fundo da página */
-    right: 20px; /* Distância do botão a partir da direita da página */
-    background-color: #777575; /* Cor de fundo do botão */
-    color: #333333; /* Cor do ícone do botão */
-    border: none; /* Remove a borda do botão */
-    border-radius: 50%; /* Torna o botão circular */
-    cursor: pointer; /* Transforma o cursor em uma mãozinha ao passar sobre o botão */
-    font-size: 30px; /* Tamanho do ícone do botão */
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #777575;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 40px;
 }
 
-/* Estilos para o botão "Voltar ao Topo" ao passar o mouse sobre ele */
 #topButton:hover {
-    background-color: #4400ff; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #0004ff;
+}
+.social-icons {
+    font-size: 24px; /* Tamanho dos ícones */
+}
+
+.social-icons a {
+    margin-right: 20px; /* Espaçamento entre os ícones */
+    color: #0a0a0a; /* Cor dos ícones */
+}
+
+.social-icons a:hover {
+    color: #0004ff; /* Cor dos ícones ao passar o mouse */
 }
