@@ -1,0 +1,17 @@
+Minha experiência em Python se concentra na criação de soluções dedicadas à automação eficiente de 
+tarefas rotineiras. Durante meu percurso, desenvolvi e implementei com sucesso diversos projetos 
+notáveis que demonstram a versatilidade desta linguagem.
+
+Entre esses projetos, destaco o "PontoBat", uma aplicação que automatiza o registro de ponto, 
+efetuando batidas automáticas em horários predefinidos, exceto quando o usuário não está ativo 
+no computador. Além disso, elaborei o "Atualizador", uma ferramenta que executa backup do sistema 
+e realiza atualizações do executável de forma autônoma.
+
+Outro projeto relevante foi o "Sup", um painel de controle desenvolvido para a equipe de suporte. 
+Este painel oferece uma série de botões intuitivos com atalhos simplificados, otimizando o 
+atendimento ao cliente e agilizando a resolução de problemas.
+
+Essas iniciativas ilustram meu compromisso em explorar o potencial da linguagem Python para 
+aprimorar a eficiência operacional e simplificar processos. Estou continuamente buscando 
+oportunidades para aplicar meu conhecimento em Python e contribuir para o desenvolvimento de 
+soluções que tragam valor às organizações.

@@ -169,7 +169,7 @@ button[type="submit"] {
     background-color: #777575;
     color: #fdfdfd;
     border: none;
-    border-radius: 50%;
+    border-radius: 100%;
     cursor: pointer;
     font-size: 40px;
 }
